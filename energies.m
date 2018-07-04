@@ -1,4 +1,6 @@
 function [V,K] = energies(Vc,WW,m,I,Pc,TT,g)
+%this function takes as input translational and rotational velocities of the system, and generates the potential and
+%kinetic enegies of the system
     n = length(m);
     V=sym('0');
     K=sym('0');
